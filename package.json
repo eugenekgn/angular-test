@@ -1,0 +1,20 @@
+{
+  "name": "angular-test",
+  "version": "1.0.0",
+  "description": "Testing Angular wit Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha app/*.spec.js"
+  },
+  "author": "Eugene Kagan",
+  "license": "MIT",
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "chai": "^3.5.0",
+    "jsdom": "^8.4.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
